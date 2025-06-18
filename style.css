@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #151515;
+
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    text-decoration: none;
+    font-family: "Montserrat";
+    background-color: #282828;
+    padding: 20px;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav__list li {
+    margin-right: 20px;
+    
+}
+.header__logoul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+li a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+li a:hover{
+    color: blue;
+}
+.header__nav {
+    display: flex; /* Flex modelini qo'llash */
+    justify-content: space-between; /* Elementlarni bo'sh joy bilan taqsimlash */
+    align-items: center; /* Vertikal markazlash */
+}
+.tools__list {
+    list-style: none;
+    padding-bottom: 7px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.tools__list li {
+    margin-right: 20px;
+}
+.backgorund__title{
+    font-family: "Prosto One";
+font-size: 100px;
+font-weight: 400;
+padding-top: 206px;
+padding-bottom: 38px;
+
+}
+#airpods {
+    background-image: url('./images/Header.png'); /* Fon rasmi manzili */
+    background-size: cover; /* Rasmni to'liq qoplash */
+    background-position: center; /* Rasmni markazga joylash */
+    color: white; /* Matn rangi */
+    text-align: center; /* Matnni markazga joylash */
+    padding-bottom: 268px;
+}
+
+.official-site-button {
+    width: 210px;
+height: 50px;
+
+    display: inline-block;
+    background-color: white; /* Tugma rangi */
+    color:#171718; /* Tugma matn rangi */
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+
+    padding: 10px 20px; /* Tugma ichidagi bo'sh joy */
+    text-decoration: none; /* Tugma ostidagi chiziqni olib tashlash */
+    border-radius: 5px; /* Tugma burchaklarini yumshatish */
+    transition: background-color 0.3s; /* Rang o'zgarishi uchun animatsiya */
+}
+
+.official-site-button:hover {
+    box-shadow: 4px 4px 40px 4px grey;
+    text-shadow: 4px 4px 4px blue;
+    background-color: #0056b3; /* Tugma ustiga kelsa rang o'zgarishi */
+}
+.every{
+    gap: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.text__box{
+    width: 538px;
+}
+.text{
+    font-family: "Montserrat";
+font-size: 22px;
+font-weight: 500;
+color: #FFFFFF;
+transition: 1s ease-in-out;
+}
+.text:hover{
+    color: blue;
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+.line{
+    width: 61px;
+height: 1px;
+background-color: #C4C4C4;
+
+}
+.photooo{
+    padding-bottom: 76px;
+}
+.tele__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+.tele__item{
+    padding: 47px 15px;
+    width: 255px;
+background-color: white;
+color: black;
+text-align: center;
+border-radius: 5px;
+transition: 0.3s ease-in-out;
+}
+.tele__item:hover{
+    transition: 0.3s ease-in-out;
+    .tele__btn{
+        background-color: white;
+        color: blue;
+    }
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.tele__title{
+    font-family: "Montserrat";
+font-size: 20px;
+font-weight: 700;
+padding-bottom: 10px;
+transition: 1s ease-in-out;
+}
+.tele__title:hover{
+    color: blue;
+    transition: 1s ease-in-out;
+}
+
+.tele__text{
+    font-family: "Montserrat";
+font-size: 14px;
+font-weight: 400;
+padding-top: 10px;
+padding-bottom: 20px;
+transition: 1s ease-in-out;
+}
+.tele__text:hover{
+    transition: 1s ease-in-out;
+    color: blue;
+}
+
+.tele__btn{
+    width: 161px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #151515;
+font-family: "Montserrat";
+font-size: 16px;
+font-weight: 700;
+margin: 0 auto;
+color: white;
+border: none;
+transition: 0.3s ease-in-out;
+}
+.tele__btn:hover{
+    border-radius: 20px;
+    color: greenyellow;
+    transition: 0.3s ease-in-out;
+}
+.footer{
+    height: 215px;
+    display: flex;
+    align-items: center;
+}
+.ikkii{
+    margin-left: 30px;
+}
+.content{
+   
+    display: inline-block;
+}
+.footer__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.card__list{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.button__links{
+    color: white;
+    transition: 0.3 ease-in-out;
+
+}
+.button__links:hover{
+    transition: 0.3 ease-in-out;
+    color: greenyellow;
+}
